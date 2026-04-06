@@ -1,3 +1,22 @@
+# Allure (локальные файлы, не нужны в репозитории)
+.allure/
+allure-results/
+allure-report/
+
+# IntelliJ IDEA (исключить всю папку)
+.idea/
+
+# Maven (локальные файлы)
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+
+# Mac OS
+.DS_Store
+
+# Логи и временные файлы
+*.log
+*.tmp
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -5,13 +24,7 @@ target/
 .kotlin
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
+.idea/
 
 ### Eclipse ###
 .apt_generated
